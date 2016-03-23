@@ -1,15 +1,11 @@
 package cntrllrs
 
-import(
-  "fmt"
-)
-
-type goclass struct{
-  a int
-  b string
+type binary struct{
+	Dec int
+  	Bin string
 }
 
-func NewGoclass() *goclass{
-  _ = fmt.Println
-  return &goclass{}
+func NewGoclass() *binary{
+  	obj := new(binary)
+  	return obj
 }
