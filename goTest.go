@@ -6,10 +6,12 @@ import (
 	"bufio"
 	"os"
 	"goTest/cntrllrs"
+	"goTest/cmpnnts"
 )
 
 func main() {
-	obj := cntrllrs.NewGoclass()
+	mdls.Generate("root","","local")
+	obj := cntrllrs.NewDecToBin()
 	fmt.Print("Ingrese un número, lo convertiremos en binario: ")
 	var n int
 	_, err := fmt.Scanf("%d", &n)
