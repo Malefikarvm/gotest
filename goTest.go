@@ -1,5 +1,8 @@
 package main
 
+/**
+ * main class project
+ */
 import (
 	"fmt"
 	"strconv"
